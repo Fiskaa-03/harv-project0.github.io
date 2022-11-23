@@ -18,3 +18,33 @@ header ul li {
     margin: 0 10px;
     list-style: none;
 }
+
+/* Content */
+
+.bar {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar img {
+    width: 500px;
+}
+
+.search-bar input {
+    width: 500px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.search-bar button {
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+}
