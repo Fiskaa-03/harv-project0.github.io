@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
+}
+
+header {
+    margin-top: 20px;
 }
 
 header ul {
@@ -23,7 +31,7 @@ header ul li {
 
 .bar {
     display: flex;
-    height: 80vh;
+    height: 75vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -47,4 +55,101 @@ header ul li {
     border: none;
     background-color: #ccc;
     cursor: pointer;
+}
+
+/* advanced.html */
+header img.small-logo {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.appbar p {
+    margin-top: 20px;
+    color: red;
+    font-size: 1.2rem;
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 30px;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.form form {
+    width: 1140px;
+}
+
+.form .head-text-wrapper {
+    display: flex;
+}
+
+.form p.head-text {
+    font-size: 1rem;
+}
+
+.form .batas {
+    width: 572px;
+}
+
+.form form .form-bar-wrapper .form-bar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.form form .form-bar-wrapper .form-bar label, p {
+    font-size: .8rem;
+}
+
+.form form .form-bar-wrapper .form-bar .label-for-query {
+    width: 16%;
+    line-height: 1;
+}
+
+.form form .form-bar-wrapper .form-bar .input-for-query {
+    width: 572px;
+    height: 29px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.form form .form-bar-wrapper .form-bar .input-for-query input {
+    width: 100%;
+    height: 100%;
+}
+
+.form form .form-bar-wrapper .form-bar .input-for-query label {
+    margin: 0 5px;
+}
+
+.form form .form-bar-wrapper .form-bar .clue {
+    width: 32%;
+    margin: 0 8px;
+}
+
+.form-border {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 30px;
+}
+
+.form .head-text-scd-form {
+    margin-top: 20px;
+    font-size: 1rem;
+    width: 150px;
+}
+
+.form form .form-bar-wrapper .form-bar .input-for-query button {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
 }
