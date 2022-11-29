@@ -58,9 +58,20 @@ header ul li {
 }
 
 /* advanced.html */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header img.small-logo {
     width: 100px;
     margin-left: 15px;
+}
+
+header nav {
+    margin-right: 50px;
 }
 
 .appbar p {
