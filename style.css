@@ -152,12 +152,6 @@ header nav {
     margin-top: 30px;
 }
 
-.form .head-text-scd-form {
-    margin-top: 20px;
-    font-size: 1rem;
-    width: 150px;
-}
-
 .form form .form-bar-wrapper .form-bar .input-for-query button {
     padding: 5px;
     display: flex;

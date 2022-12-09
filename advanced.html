@@ -25,7 +25,7 @@
 
     <div class="form">
         <div class="container">
-            <form action="" method="post">
+            <form action="https://www.google.com/search" method="get">
                 
                 <div class="head-text-wrapper">
                     <p class="head-text">Cari halaman dengan...</p>
@@ -39,7 +39,7 @@
                             <label for="all-word">semua kata berikut:</label>
                         </div>
                         <div class="input-for-query">
-                            <input type="text" name="all-these-word" id="all-word">
+                            <input type="text" name="as_q" id="all-word">
                         </div>
                         <div class="clue">
                             <p>Ketikkan kata penting</p>
@@ -50,7 +50,7 @@
                             <label for="all-word">kata atau frasa yang sama seperti ini:</label>
                         </div>
                         <div class="input-for-query">
-                            <input type="text" name="all-these-word" id="all-word">
+                            <input type="text" name="as_epq" id="all-word">
                         </div>
                         <div class="clue">
                             <p>Berikan tanda kutip untuk kata yang sama persis</p>
@@ -61,7 +61,7 @@
                             <label for="all-word">salah satu dari kata-kata berikut:</label>
                         </div>
                         <div class="input-for-query">
-                            <input type="text" name="all-these-word" id="all-word">
+                            <input type="text" name="as_oq" id="all-word">
                         </div>
                         <div class="clue">
                             <p>Ketikkan OR di antara semua kata yang anda inginkan:</p>
@@ -72,173 +72,19 @@
                             <label for="all-word">tak satupun dari kata-kata berikut:</label>
                         </div>
                         <div class="input-for-query">
-                            <input type="text" name="all-these-word" id="all-word">
-                        </div>
-                        <div class="clue">
-                            <p>Masukan tanda minus (-) sebelum kata-kata yang tidak Anda inginkan:</p>
-                        </div>
-                    </div>
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">angka dengan rentang mulai:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="all-these-word" id="all-word">
-                            <label for="second-word">hingga:</label>
-                            <input type="text" name="all-these-word" id="second-word">
+                            <input type="text" name="as_eq" id="all-word">
                         </div>
                         <div class="clue">
                             <p>Masukan tanda minus (-) sebelum kata-kata yang tidak Anda inginkan:</p>
                         </div>
                     </div>
 
-                    <div class="form-border"></div>
-
-                    <p class="head-text-scd-form">Kemudain persempit hasil anda menurut...</p>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">bahasa:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="lang" list="country-lang">
-                                <datalist id="country-lang">
-                                    <option value="Indonesia">
-                                    <option value="Cambridge">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Cari halaman dalam bahasa yang anda pilih.</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">kawasan:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="area" list="country-area">
-                                <datalist id="country-area">
-                                    <option value="Indonesia">
-                                    <option value="Britannia">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Cari halaman yang di terbitkan dalam kawasan tertentu</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">terakhir diperbarui:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="date" list="date-post">
-                                <datalist id="date-post">
-                                    <option value="Kapan Saja">
-                                    <option value="24 jam terakhir">
-                                    <option value="1 minggu terakhir">
-                                    <option value="1 bulan terakhir">
-                                    <option value="1 tahun terakhir">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Cari halaman yang diperbarui dalam kurun waktu yang Anda tentukan.</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">situs atau domain:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="all-these-word" id="all-word">
-                        </div>
-                        <div class="clue">
-                            <p>Telusuri satu situs (contohnya wikipedia.org ) atau batasi hasil Anda pada domain tertentu seperti .edu, .org, atau .gov</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">istilah yang muncul:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="term" list="term-place">
-                                <datalist id="term-place">
-                                    <option value="di mana pun pada halaman">
-                                    <option value="dalam judul halaman">
-                                    <option value="dalam teks halaman">
-                                    <option value="dalam URL halaman">
-                                    <option value="dalam link ke halaman">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Cari istilah di seluruh halaman, judul halaman, alamat web, atau link ke halaman yang Anda cari.</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">Safe search:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="safe-search" list="show-safe-sarch">
-                                <datalist id="show-safe-sarch">
-                                    <option value="Sembunyikan hasil vulgar">
-                                    <option value="Tampilkan hasil vulgar">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Perintahkan SafeSearch untuk memfilter konten seksual vulgar atau tidak.</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">jenis file:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="file" list="kind-file">
-                                <datalist id="kind-file">
-                                    <option value="Format apapun">
-                                    <option value="PDF">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Cari halaman dalam format yang anda inginkan.</p>
-                        </div>
-                    </div>
-
-                    <div class="form-bar">
-                        <div class="label-for-query">
-                            <label for="all-word">hak penggunaan:</label>
-                        </div>
-                        <div class="input-for-query">
-                            <input type="text" name="license" list="kind-license">
-                                <datalist id="kind-license">
-                                    <option value="tidak difilter menurut lisensi">
-                                    <option value="bebas digunakan atau dibagikan">
-                                </datalist>
-                            </input>
-                        </div>
-                        <div class="clue">
-                            <p>Cari halaman yang bebas anda gunakan.</p>
-                        </div>
-                    </div>
-
                     <div class="form-bar">
                         <div class="label-for-query">
 
                         </div>
                         <div class="input-for-query">
-                            <button type="submit">Penelusuran Lanjutan</button>
+                            <button type="submit" value="Google Search">Penelusuran Lanjutan</button>
                         </div>
                     </div>
 
